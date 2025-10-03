@@ -86,7 +86,7 @@ const GalleryWithImages = () => {
             <li>Tambahkan file gambar ke folder <code className="bg-blue-200 px-1 rounded">public/images/</code></li>
             <li>Pastikan nama file sesuai dengan yang ada di data gambar</li>
             <li>Uncomment prop <code className="bg-blue-200 px-1 rounded">src</code> di komponen ImagePlaceholder</li>
-            <li>Contoh: <code className="bg-blue-200 px-1 rounded">src="/images/pagar-minimalis.jpg"</code></li>
+            <li>Contoh: <code className="bg-blue-200 px-1 rounded">src=&quot;/images/pagar-minimalis.jpg&quot;</code></li>
           </ol>
         </div>
       </div>

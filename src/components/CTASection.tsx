@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { siteConfig } from '@/config/site-config';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { t } from '@/utils/translations';
+// Removed unused t import
 
 const CTASection = () => {
   const { language } = useLanguage();

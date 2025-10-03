@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+// Removed unused Image import
 
 // Komponen ini menunjukkan contoh implementasi gambar yang benar
 // Setelah Anda memiliki gambar asli, ganti placeholder dengan komponen ini

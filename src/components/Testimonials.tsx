@@ -59,7 +59,7 @@ const Testimonials = () => {
                   </svg>
                 ))}
               </div>
-              <p className="text-gray-600 mb-6 italic">"{testimonial.content}"</p>
+              <p className="text-gray-600 mb-6 italic">&quot;{testimonial.content}&quot;</p>
               <div className="flex items-center">
                 <div className="bg-gray-200 border-2 border-dashed rounded-xl w-12 h-12" />
                 <div className="ml-4">

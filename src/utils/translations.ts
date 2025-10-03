@@ -1,6 +1,110 @@
 // Simple translation utility without external dependencies
 
-const translations = {
+// Define types for our translations
+interface TranslationKeys {
+  // Hero section
+  heroTitle: string;
+  heroSubtitle: string;
+  heroCta: string;
+  heroCtaSecondary: string;
+  yearsExperience: string;
+  
+  // About section
+  aboutTitle: string;
+  aboutHeading: string;
+  aboutSubtitle: string;
+  aboutDescription1: string;
+  aboutDescription2: string;
+  aboutWhyChoose: string;
+  aboutCertifiedWelders: string;
+  aboutQualityMaterials: string;
+  aboutOnTime: string;
+  aboutCompetitivePricing: string;
+  
+  // Services section
+  servicesTitle: string;
+  servicesHeading: string;
+  servicesSubtitle: string;
+  servicesFence: string;
+  servicesFenceDesc: string;
+  servicesCanopy: string;
+  servicesCanopyDesc: string;
+  servicesGrilles: string;
+  servicesGrillesDesc: string;
+  servicesCustom: string;
+  servicesCustomDesc: string;
+  servicesMaterials: string;
+  servicesWelding: string;
+  servicesFinishing: string;
+  
+  // Gallery section
+  galleryTitle: string;
+  galleryHeading: string;
+  gallerySubtitle: string;
+  galleryProject: string;
+  galleryQuoteCta: string;
+  
+  // Contact section
+  contactTitle: string;
+  contactHeading: string;
+  contactSubtitle: string;
+  contactInfo: string;
+  contactPhone: string;
+  contactEmail: string;
+  contactLocation: string;
+  contactHours: string;
+  contactMessage: string;
+  contactName: string;
+  contactEmailField: string;
+  contactPhoneField: string;
+  contactMessageField: string;
+  contactSend: string;
+  
+  // Footer
+  footerTitle: string;
+  footerDescription: string;
+  footerLinks: string;
+  footerConnect: string;
+  footerCopyright: string;
+  
+  // Materials
+  materials: {
+    carbonSteel: string;
+    stainlessSteel: string;
+    aluminum: string;
+    castIron: string;
+  };
+  
+  // Processes
+  processes: {
+    mig: string;
+    tig: string;
+    stick: string;
+    flux: string;
+  };
+  
+  // Finishing
+  finishing: {
+    powder: string;
+    galvanizing: string;
+    painting: string;
+    polishing: string;
+  };
+  
+  // Hours
+  hours: {
+    monFri: string;
+    saturday: string;
+    sunday: string;
+  };
+}
+
+type Translations = {
+  en: TranslationKeys;
+  id: TranslationKeys;
+};
+
+const translations: Translations = {
   en: {
     // Hero section
     heroTitle: "PT Next Welder",
@@ -198,15 +302,24 @@ const translations = {
   }
 };
 
+// Type for translation values (string or nested objects)
+type TranslationValue = string | Record<string, string>;
+
 export const t = (key: string, language: 'en' | 'id' = 'en'): string => {
   // Handle nested keys like "materials.carbonSteel"
   if (key.includes('.')) {
     const [parent, child] = key.split('.');
-    const parentObj = (translations[language] as any)[parent];
+    const parentObj = translations[language][parent as keyof TranslationKeys] as Record<string, string>;
     return parentObj?.[child] || key;
   }
   
-  return (translations[language] as any)[key] || key;
+  const value = translations[language][key as keyof TranslationKeys] as TranslationValue;
+  // If it's a string, return it directly
+  if (typeof value === 'string') {
+    return value;
+  }
+  // If it's an object, return the key as we can't directly use object values
+  return key;
 };
 
 export default translations;

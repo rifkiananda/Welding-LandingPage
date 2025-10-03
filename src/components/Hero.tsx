@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import AnimatedBackground from '@/components/AnimatedBackground';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { t } from '@/utils/translations';
+import Image from 'next/image';
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -79,10 +80,12 @@ const Hero = () => {
             <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl p-1 inline-block shadow-2xl">
               <div className="bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg w-full h-64 md:h-80 overflow-hidden">
                 {/* Display your workshop image */}
-                <img 
+                <Image 
                   src="/images/workshop.png" 
                   alt="Workshop PT Next Welder" 
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
+                  priority
                 />
               </div>
             </div>
