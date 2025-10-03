@@ -1,0 +1,95 @@
+{
+  "heroTitle": "Jasa Las Profesional",
+  "heroSubtitle": "Solusi fabrikasi logam dan pengelasan berkualitas untuk proyek rumah tangga dan komersial. Dibuat untuk tahan lama dengan kerajinan presisi.",
+  "heroCta": "Hubungi via WhatsApp",
+  "heroCtaSecondary": "Lihat Layanan Kami",
+  "yearsExperience": "15+ Tahun Pengalaman",
+  
+  "aboutTitle": "Tentang Kami",
+  "aboutHeading": "Kerajinan Berkualitas yang Dapat Anda Percayai",
+  "aboutSubtitle": "Dengan pengalaman lebih dari 15 tahun, kami memberikan layanan pengelasan presisi untuk proyek dalam segala ukuran.",
+  "aboutDescription1": "Berdiri sejak 2008, layanan las kami telah berkembang dari operasi garasi kecil menjadi penyedia terpercaya bagi klien rumah tangga dan komersial di seluruh wilayah.",
+  "aboutDescription2": "Tim las bersertifikat kami membawa keahlian dalam berbagai teknik pengelasan, mulai dari pengelasan MIG dan TIG dasar hingga proses khusus untuk aplikasi industri.",
+  "aboutWhyChoose": "Mengapa Memilih Kami",
+  "aboutCertifiedWelders": "Tukang las profesional bersertifikat",
+  "aboutQualityMaterials": "Bahan dan peralatan berkualitas",
+  "aboutOnTime": "Penyelesaian proyek tepat waktu",
+  "aboutCompetitivePricing": "Harga kompetitif",
+  
+  "servicesTitle": "Layanan Kami",
+  "servicesHeading": "Solusi Pengelasan Komprehensif",
+  "servicesSubtitle": "Dari proyek rumah tangga hingga fabrikasi industri, kami menangani pekerjaan dalam segala ukuran dengan presisi.",
+  "servicesFence": "Las Pagar",
+  "servicesFenceDesc": "Pagar logam kustom untuk properti rumah tangga dan komersial dengan finishing tahan lama.",
+  "servicesCanopy": "Struktur Kanopi",
+  "servicesCanopyDesc": "Instalasi kanopi baja untuk carport, patio, dan jalur komersial.",
+  "servicesGrilles": "Tralis Jendela",
+  "servicesGrillesDesc": "Tralis dekoratif dan keamanan dengan desain kustom yang sesuai dengan arsitektur Anda.",
+  "servicesCustom": "Fabrikasi Kustom",
+  "servicesCustomDesc": "Proyek kerja logam unik yang disesuaikan dengan persyaratan dan desain spesifik Anda.",
+  "servicesMaterials": "Bahan yang Kami Kerjakan",
+  "servicesWelding": "Proses Pengelasan",
+  "servicesFinishing": "Opsi Finishing",
+  
+  "galleryTitle": "Hasil Pekerjaan Kami",
+  "galleryHeading": "Galeri Proyek",
+  "gallerySubtitle": "Jelajahi proyek pengelasan terbaru kami dan lihat kerajinan berkualitas yang kami berikan.",
+  "galleryProject": "Proyek",
+  "galleryQuoteCta": "Minta Penawaran untuk Proyek Anda",
+  
+  "contactTitle": "Hubungi Kami",
+  "contactHeading": "Hubungi Kami",
+  "contactSubtitle": "Siap memulai proyek Anda? Hubungi kami hari ini untuk konsultasi dan penawaran gratis.",
+  "contactInfo": "Informasi Kontak",
+  "contactPhone": "Telepon",
+  "contactEmail": "Email",
+  "contactLocation": "Lokasi",
+  "contactHours": "Jam Kerja",
+  "contactMessage": "Kirim Pesan",
+  "contactName": "Nama",
+  "contactEmailField": "Email",
+  "contactPhoneField": "Telepon",
+  "contactMessageField": "Pesan",
+  "contactSend": "Kirim Pesan",
+  
+  "footerTitle": "Jasa Las Profesional",
+  "footerDescription": "Menyediakan layanan pengelasan dan fabrikasi logam berkualitas tinggi untuk klien rumah tangga dan komersial dengan pengalaman lebih dari 15 tahun di industri ini.",
+  "footerLinks": "Tautan Cepat",
+  "footerConnect": "Terhubung Dengan Kami",
+  "footerCopyright": "Jasa Las Profesional. Hak cipta dilindungi.",
+  
+  "materials": {
+    "carbonSteel": "Baja Karbon",
+    "stainlessSteel": "Baja Tahan Karat",
+    "aluminum": "Aluminium",
+    "castIron": "Besi Cor"
+  },
+  
+  "processes": {
+    "mig": "Pengelasan MIG",
+    "tig": "Pengelasan TIG",
+    "stick": "Pengelasan Stick",
+    "flux": "Flux Core"
+  },
+  
+  "finishing": {
+    "powder": "Pelapisan Bubuk",
+    "galvanizing": "Galvanis",
+    "painting": "Pengecatan",
+    "polishing": "Pemolesan"
+  },
+  
+  "hours": {
+    "monFri": "Senin - Jumat: 8:00 pagi - 6:00 sore",
+    "saturday": "Sabtu: 9:00 pagi - 2:00 siang",
+    "sunday": "Minggu: Tutup"
+  },
+  
+  "links": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "gallery": "Galeri",
+    "about": "Tentang Kami",
+    "contact": "Kontak"
+  }
+}

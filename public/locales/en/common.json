@@ -1,0 +1,95 @@
+{
+  "heroTitle": "Professional Welding Services",
+  "heroSubtitle": "Quality metal fabrication and welding solutions for residential and commercial projects. Built to last with precision craftsmanship.",
+  "heroCta": "Message on WhatsApp",
+  "heroCtaSecondary": "View Our Services",
+  "yearsExperience": "15+ Years Experience",
+  
+  "aboutTitle": "About Our Service",
+  "aboutHeading": "Quality Craftsmanship You Can Trust",
+  "aboutSubtitle": "With over 15 years of experience, we deliver precision welding services for projects of all sizes.",
+  "aboutDescription1": "Founded in 2008, our welding service has grown from a small garage operation to a trusted provider for residential and commercial clients throughout the region.",
+  "aboutDescription2": "Our team of certified welders brings expertise in multiple welding techniques, from basic MIG and TIG welding to specialized processes for industrial applications.",
+  "aboutWhyChoose": "Why Choose Us",
+  "aboutCertifiedWelders": "Certified professional welders",
+  "aboutQualityMaterials": "Quality materials and equipment",
+  "aboutOnTime": "On-time project completion",
+  "aboutCompetitivePricing": "Competitive pricing",
+  
+  "servicesTitle": "Our Services",
+  "servicesHeading": "Comprehensive Welding Solutions",
+  "servicesSubtitle": "From residential projects to industrial fabrication, we handle jobs of all sizes with precision.",
+  "servicesFence": "Fence Welding",
+  "servicesFenceDesc": "Custom metal fences for residential and commercial properties with durable finishes.",
+  "servicesCanopy": "Canopy Structures",
+  "servicesCanopyDesc": "Steel canopy installations for carports, patios, and commercial walkways.",
+  "servicesGrilles": "Window Grilles",
+  "servicesGrillesDesc": "Decorative and security grilles with custom designs to match your architecture.",
+  "servicesCustom": "Custom Fabrication",
+  "servicesCustomDesc": "Unique metalwork projects tailored to your specific requirements and design.",
+  "servicesMaterials": "Materials We Work With",
+  "servicesWelding": "Welding Processes",
+  "servicesFinishing": "Finishing Options",
+  
+  "galleryTitle": "Our Work",
+  "galleryHeading": "Project Gallery",
+  "gallerySubtitle": "Explore our recent welding projects and see the quality craftsmanship we deliver.",
+  "galleryProject": "Project",
+  "galleryQuoteCta": "Request a Quote for Your Project",
+  
+  "contactTitle": "Contact Us",
+  "contactHeading": "Get In Touch",
+  "contactSubtitle": "Ready to start your project? Contact us today for a free consultation and quote.",
+  "contactInfo": "Contact Information",
+  "contactPhone": "Phone",
+  "contactEmail": "Email",
+  "contactLocation": "Location",
+  "contactHours": "Working Hours",
+  "contactMessage": "Send Us a Message",
+  "contactName": "Name",
+  "contactEmailField": "Email",
+  "contactPhoneField": "Phone",
+  "contactMessageField": "Message",
+  "contactSend": "Send Message",
+  
+  "footerTitle": "Professional Welding Services",
+  "footerDescription": "Providing high-quality welding and metal fabrication services for residential and commercial clients with over 15 years of experience in the industry.",
+  "footerLinks": "Quick Links",
+  "footerConnect": "Connect With Us",
+  "footerCopyright": "Professional Welding Services. All rights reserved.",
+  
+  "materials": {
+    "carbonSteel": "Carbon Steel",
+    "stainlessSteel": "Stainless Steel",
+    "aluminum": "Aluminum",
+    "castIron": "Cast Iron"
+  },
+  
+  "processes": {
+    "mig": "MIG Welding",
+    "tig": "TIG Welding",
+    "stick": "Stick Welding",
+    "flux": "Flux Core"
+  },
+  
+  "finishing": {
+    "powder": "Powder Coating",
+    "galvanizing": "Galvanizing",
+    "painting": "Painting",
+    "polishing": "Polishing"
+  },
+  
+  "hours": {
+    "monFri": "Monday - Friday: 8:00 AM - 6:00 PM",
+    "saturday": "Saturday: 9:00 AM - 2:00 PM",
+    "sunday": "Sunday: Closed"
+  },
+  
+  "links": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "about": "About Us",
+    "contact": "Contact"
+  }
+}
